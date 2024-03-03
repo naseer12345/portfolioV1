@@ -5,7 +5,7 @@ import { ButtonsCard } from './tailwindcss-buttons';
 export default function Video() {
   const videoOptions = {
     height: '390',
-    width: '640',
+    width: '540',
     playerVars: {
 
       // change the auto play to 1 so the video plays by it self when its loaded
@@ -15,7 +15,7 @@ export default function Video() {
 
   return (
     <div className="flex justify-center flex-col ">
-    <div className="relative flex-grow-1" >
+    <div className="relative flex-grow-1 " >
       <YouTube 
         videoId="dQw4w9WgXcQ" 
         opts={videoOptions} 

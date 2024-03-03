@@ -10,6 +10,7 @@ import Timeline from "./components/ui/workExperienceTimeLine";
 import { Meteors } from "./components/ui/meteors";
 import { ContactSection } from "./components/ui/conttactPage";
 import { AnimatedTooltip } from "./components/ui/animated-tooltip";
+import { TypewriterEffectSmooth } from "./components/ui/typewriter-effect";
 
 const words = `Driven by code, fueled by purpose: My mission for human betterment as a software engineer. `;
 // dummy shit
@@ -57,6 +58,29 @@ const people = [
     myimg
   },
 ];
+
+
+const wordsForTypeWrite = [
+  {
+    text: "Write",
+  },
+  {
+    text: "awesome",
+  },
+  {
+    text: "code",
+  },
+  {
+    text: "with",
+  },
+  {
+    text: "Naseer.",
+    className: "text-blue-500 dark:text-blue-500",
+  },
+];
+
+
+
 export default function Home() {
   return (
     
@@ -101,7 +125,7 @@ export default function Home() {
     <Timeline />
      
     {/* div for showing projects */}
-    <div className=" mt-20 flex gap-10  max-w-[100%]  ">
+    <div className=" mt-20 flex flex-wrap justify-center align gap-10  max-w-[100%]  ">
     {/* project 1 */}
       <div className=" w-full  relative max-w-[32rem]   ">
         <div className="absolute  inset-0 h-full w-full bg-gradient-to-r from-blue-500 to-teal-500 transform scale-[0.90] bg-red-500 rounded-full blur-3xl" />
@@ -364,7 +388,16 @@ export default function Home() {
     
     
     
-
+    {/* type writer effect  */}
+    <div className="flex flex-col items-center justify-center h-[40rem]  ">
+      <p className="text-neutral-600 dark:text-neutral-200 text-xs sm:text-base  ">
+        The road for great humanity through code starts from here
+      </p>
+      <TypewriterEffectSmooth words={wordsForTypeWrite} />
+      <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-4">
+       
+      </div>
+    </div>
     
      <ContactSection />
     </div>
