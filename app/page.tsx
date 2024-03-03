@@ -187,17 +187,17 @@ export default function Home() {
         <div>
           <h1>Fron-end</h1>
           <ul>
-            <li>->Coffee</li>
-            <li>->Tea</li>
-            <li>->Coca Cola</li>
+            <li>-Coffee</li>
+            <li>-Tea</li>
+            <li>-Coca Cola</li>
           </ul>
         </div>
         <div>
           <h1>Back-end</h1>
           <ul>
-            <li>->Coffee</li>
-            <li>->Tea</li>
-            <li>->Coca Cola</li>
+            <li>-Coffee</li>
+            <li>-Tea</li>
+            <li>-Coca Cola</li>
             
           </ul>
         </div>
@@ -310,17 +310,17 @@ export default function Home() {
         <div>
           <h1>Fron-end</h1>
           <ul>
-            <li>->Coffee</li>
-            <li>->Tea</li>
-            <li>->Coca Cola</li>
+            <li>-Coffee</li>
+            <li>-Tea</li>
+            <li>-Coca Cola</li>
           </ul>
         </div>
         <div>
           <h1>Back-end</h1>
           <ul>
-            <li>->Coffee</li>
-            <li>->Tea</li>
-            <li>->Coca Cola</li>
+            <li>-Coffee</li>
+            <li>-Tea</li>
+            <li>-Coca Cola</li>
             
           </ul>
         </div>
