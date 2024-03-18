@@ -13,49 +13,6 @@ import { TypewriterEffectSmooth } from "./components/ui/typewriter-effect";
 import ProjectCard from "./components/projectCard";
 
 const words = `Driven by code, fueled by purpose: My mission for human betterment as a software engineer. `;
-// dummy shit
-// you need to write the path of image in here instead of importing it and using it as 
-// variable, in this case it would be myimg. if you put myimg in here you get an error 
-// in the "items" saying some shit. save your time habibi/habibti.
-// const people = [
-//   {
-//     id: 1,
-//     name: "John Doe",
-//     designation: "Software Engineer",
-//     image: '/test.jpg',
-//   },
-//   {
-//     id: 2,
-//     name: "Robert Johnson",
-//     designation: "Product Manager",
-//     image: '/test.jpg', 
-//   },
-//   {
-//     id: 3,
-//     name: "Jane Smith",
-//     designation: "Data Scientist",
-//     image: '/test.jpg', 
-//   },
-//   {
-//     id: 4,
-//     name: "Emily Davis",
-//     designation: "UX Designer",
-//     image: '/test.jpg', 
-//   },
-//   {
-//     id: 5,
-//     name: "Tyler Durden",
-//     designation: "Soap Developer",
-//     image: './test.jpg', 
-//   },
-//   {
-//     id: 6,
-//     name: "Dora",
-//     designation: "The Explorer",
-//     image: '/test.jpg', 
-//   },
-// ];
-
 
 const wordsForTypeWrite = [
   {
@@ -72,7 +29,7 @@ const wordsForTypeWrite = [
   },
   {
     text: "Naseer.",
-    className: "text-blue-500 dark:text-blue-500",
+    className: "text-blue-500 text-blue-500",
   },
 ];
 
@@ -135,7 +92,7 @@ export default function Home() {
             <li>-Coca Cola</li>
           </ul>
         </div>
-        <div>
+        <div className=" text-white "  >
           <h1>Back-end</h1>
           <ul>
             <li>-Coffee</li>
@@ -206,7 +163,7 @@ export default function Home() {
             <li>-Coca Cola</li>
           </ul>
         </div>
-        <div>
+        <div className=" text-white " >
           <h1>Back-end</h1>
           <ul>
             <li>-Coffee</li>
