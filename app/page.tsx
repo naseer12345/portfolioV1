@@ -126,8 +126,8 @@ export default function Home() {
         <div className="relative shadow-xl bg-gray-900 border border-gray-800 gap-4 px-4 py-8  overflow-hidden rounded-2xl flex flex-row  flex-wrap justify-center max-w-[65rem] ml-10 mr-10 ">
       {/* div for listing the front and back end techs */}
       <div className=" flex flex-col justify-center">
-      <div className="flex  items-center space-x-8 mt-0 max-w-[30rem]">
-        <div>
+      <div className="flex  items-center space-x-8 mt-0 max-w-[30rem] ">
+        <div className=" text-white " >
           <h1>Fron-end</h1>
           <ul>
             <li>-Coffee</li>
@@ -198,7 +198,7 @@ export default function Home() {
       {/* div for listing the front and back end techs */}
       <div className=" flex flex-col justify-center">
       <div className="flex  items-center space-x-8 mt-0 max-w-[30rem]">
-        <div>
+        <div className=" text-white ">
           <h1>Fron-end</h1>
           <ul>
             <li>-Coffee</li>
