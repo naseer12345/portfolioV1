@@ -36,7 +36,6 @@ function Timeline() {
         <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
         <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Current</time>
         <h3 className="text-lg font-semibold text-gray-900 dark:text-white">BSc (Honours) Computing and IT (Software) @ open university</h3>
-        <p className="text-base font-normal text-gray-500 dark:text-gray-400">English(g6), Maths(g7), Computer Science(g7)</p>
 
        
       </li>
