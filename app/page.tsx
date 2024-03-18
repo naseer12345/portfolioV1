@@ -119,7 +119,7 @@ export default function Home() {
     <Timeline />
      
     {/* div for showing projects */}
-    <div className=" mt-20    gap-10    ">
+    <div className=" mt-20 flex flex-col   gap-10    ">
     {/* project 1 */}
       <div className=" relative">
         <div className="absolute  inset-0 h-full w-full bg-gradient-to-r from-blue-500 to-teal-500 transform scale-[0.90] bg-red-500 rounded-full blur-3xl" />
@@ -153,9 +153,9 @@ export default function Home() {
           </h1>
  
           <p className="font-normal text-base text-slate-500 mb-4 relative z-50 max-w-[30rem]">
-            I don&apos;t know what to write so I&apos;ll just paste something
+            I dont know what to write so Ill just paste something
             cool here. One more sentence because lorem ipsum is just
-            unacceptable. Won&apos;t ChatGPT the shit out of this.
+            unacceptable. Wont ChatGPT the shit out of this.
             lor
           </p>
           <h1 className="font-bold text-xl text-white mb-4 relative mt-1 z-50 max-w-[30rem] ">
@@ -164,9 +164,9 @@ export default function Home() {
           </h1>
  
           <p className="font-normal text-base text-slate-500 mb-4 relative z-50 max-w-[30rem]">
-            I don&apos;t know what to write so I&apos;ll just paste something
+            I dont know what to write so Ill just paste something
             cool here. One more sentence because lorem ipsum is just
-            unacceptable. Won&apos;t ChatGPT the shit out of this.
+            unacceptable. Wont ChatGPT the shit out of this.
             lor
           </p>
           <h1 className="font-bold text-xl text-white mb-4 relative mt-1 z-50 max-w-[30rem]">
@@ -175,9 +175,9 @@ export default function Home() {
           </h1>
  
           <p className="font-normal text-base text-slate-500 mb-4 relative z-50 max-w-[30rem]">
-            I don&apos;t know what to write so I&apos;ll just paste something
+            I dont know what to write so Ill just paste something
             cool here. One more sentence because lorem ipsum is just
-            unacceptable. Won&apos;t ChatGPT the shit out of this.
+            unacceptable. Wont ChatGPT the shit out of this.
             lor
           </p>
  
@@ -224,9 +224,9 @@ export default function Home() {
           </h1>
  
           <p className="font-normal text-base text-slate-500 mb-4 relative z-50 max-w-[30rem]">
-            I don&apos;t know what to write so I&apos;ll just paste something
+            I dont know what to write so Ill just paste something
             cool here. One more sentence because lorem ipsum is just
-            unacceptable. Won&apos;t ChatGPT the shit out of this.
+            unacceptable. Wont ChatGPT the shit out of this.
             lor
           </p>
           <h1 className="font-bold text-xl text-white mb-4 relative mt-1 z-50 max-w-[30rem] ">
@@ -235,9 +235,9 @@ export default function Home() {
           </h1>
  
           <p className="font-normal text-base text-slate-500 mb-4 relative z-50 max-w-[30rem]">
-            I don&apos;t know what to write so I&apos;ll just paste something
+            I dont know what to write so Ill just paste something
             cool here. One more sentence because lorem ipsum is just
-            unacceptable. Won&apos;t ChatGPT the shit out of this.
+            unacceptable. Wont ChatGPT the shit out of this.
             lor
           </p>
           <h1 className="font-bold text-xl text-white mb-4 relative mt-1 z-50 max-w-[30rem]">
@@ -246,9 +246,9 @@ export default function Home() {
           </h1>
  
           <p className="font-normal text-base text-slate-500 mb-4 relative z-50 max-w-[30rem]">
-            I don&apos;t know what to write so I&apos;ll just paste something
+            I dont know what to write so Ill just paste something
             cool here. One more sentence because lorem ipsum is just
-            unacceptable. Won&apos;t ChatGPT the shit out of this.
+            unacceptable. Wont ChatGPT the shit out of this.
             lor
           </p>
  
