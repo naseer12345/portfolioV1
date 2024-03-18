@@ -83,7 +83,7 @@ export default function Home() {
     
     <div className="bg-black" >
  
-    <div className=" w-full rounded-md  relative flex flex-col items-center align-center justify-start mt-20 ">
+    <div className=" w-full rounded-md  relative flex flex-col items-center align-center justify-start  ">
 
    {/* div for sparkling effect */}
     <div className="h-[40rem] w-[100%] flex flex-col items-center justify-center overflow-hidden rounded-md">
