@@ -1,9 +1,9 @@
 import { CardBody, CardContainer, CardItem  } from "../components/ui/3d-card"
-import myimg from './test.jpg';
+
 import Image from "next/image";
 
 
-export default function ProjectCard(){
+export default function ProjectCard(props: any){
     return(
        
 <CardContainer className="inter-var">
@@ -12,21 +12,18 @@ export default function ProjectCard(){
             translateZ="50"
             className="text-xl font-bold text-neutral-600 dark:text-white"
           >
-            Project 1
+            {props.projectName}
           </CardItem>
           <CardItem
             as="p"
             translateZ="60"
             className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
           >
-          What i have learned Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-             Tempore, veniam! Voluptatibus expedita reprehenderit enim iusto alias, veritatis 
-             repellat eum, velit quos 
-            ipsum, dignissimos quis perferendis vero cum corporis minima nulla!
+         {props.description}
           </CardItem>
           <CardItem translateZ="100" className="w-full mt-4">
             <Image
-              src={myimg}
+              src={props.projectPic}
               height="1000"
               width="1000"
               className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
@@ -39,15 +36,15 @@ export default function ProjectCard(){
               as="button"
               className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
             >
-              Github →
+             <a href={props.githubLink}  target="_blank" rel="noopener noreferrer">Github →</a> 
             </CardItem>
-            <CardItem
+            {props.isLiveDemoAvailabe ?  <CardItem
               translateZ={20}
               as="button"
               className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
             >
-              Live demo
-            </CardItem>
+             <a href={props.demoLink} target="_blank" rel="noopener noreferrer">Live demo</a>
+            </CardItem> : null }
           </div>
         </CardBody>
       </CardContainer>
