@@ -280,7 +280,7 @@ export default function Home() {
     
     {/* type writer effect  */}
     <div className="flex flex-col items-center justify-center h-[40rem]  ">
-      <p className="text-neutral-600 dark:text-neutral-200 text-xs sm:text-base  ">
+      <p className="text-neutral-600 text-neutral-200 text-xs sm:text-base  ">
         The road for great humanity through code starts from here
       </p>
       <TypewriterEffectSmooth words={wordsForTypeWrite} />
