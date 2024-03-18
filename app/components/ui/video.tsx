@@ -5,7 +5,7 @@ import { ButtonsCard } from './tailwindcss-buttons';
 export default function Video() {
   const videoOptions = {
     height: '390',
-    width: '540',
+    width: '450',
     playerVars: {
 
       // change the auto play to 1 so the video plays by it self when its loaded

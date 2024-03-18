@@ -36,14 +36,15 @@ const config: Config = {
       },
     },
     plugins: [
-      addVariablesForColorsForTracingBeem,
+      
+      addVariablesForColors,
     ],
   },
   plugins: [],
 };
 
 
-function addVariablesForColorsForTracingBeem({ addBase, theme }: any) {
+function addVariablesForColors({ addBase, theme }: any) {
   let allColors = theme("colors");
   let newVars = Object.fromEntries(
     Object.entries(allColors).map(([key, val]) => [`--${key}`, val])
