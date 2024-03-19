@@ -83,7 +83,7 @@ export default function Home() {
       <div className=" flex flex-col justify-center">
       
           <h1 className="font-bold text-xl text-white mb-4 relative mt-1 z-50  max-w-[10rem]">
-           inspiration
+           Inspiration
           
           </h1>
  
@@ -125,7 +125,7 @@ export default function Home() {
       <div className=" flex flex-col justify-center">
     
           <h1 className="font-bold text-xl text-white mb-4 relative mt-1 z-50  max-w-[10rem]">
-           inspiration
+           Inspiration
           
           </h1>
  
