@@ -159,25 +159,49 @@ export default function Home() {
         
       </div>
     {/* end of project 2 */}
-    <div className=" relative     ">
-        <div className="absolute  inset-0 h-full w-full bg-gradient-to-r from-blue-500 to-teal-500 transform scale-[0.90] bg-red-500 rounded-full blur-3xl" />
-        <div className="relative shadow-xl bg-gray-900 border border-gray-800 gap-4 px-4 py-8  overflow-hidden rounded-2xl flex flex-row  flex-wrap justify-center max-w-[65rem] ml-10 mr-10 ">
-      <div className=" flex flex-col justify-center">
-    
-          <h1 className="font-bold text-xl text-white mb-4 relative mt-1 z-50  max-w-[15rem]">
-           Extra mini projects
-          
-          </h1>
-           <p className="font-normal text-base text-slate-300 mb-4 relative z-50 max-w-[30rem]">
-            I dont know what to write so Ill just paste something
-            cool here. One more sentence because lorem ipsum is just
-            unacceptable. Wont ChatGPT the shit out of this.
-            lor
-          </p>
-          <Meteors number={30} />
-          </div>         
-        </div>      
-      </div>
+  <div className="relative">
+  <div className="absolute inset-0 h-full w-full bg-gradient-to-r from-blue-500 to-teal-500 transform scale-[0.90] bg-red-500 rounded-full blur-3xl" />
+  <div className="relative shadow-xl bg-gray-900 border border-gray-800 gap-4 px-4 py-8 overflow-hidden rounded-2xl flex flex-row flex-wrap justify-center max-w-[65rem] ml-10 mr-10">
+    <div className="flex flex-col justify-center">
+      <h1 className="font-bold text-xl text-white mb-4 relative mt-1 z-50 max-w-[15rem]">
+        Abandoned Projects/Startups
+      </h1>
+      <p className="font-normal text-base text-slate-300 mb-4 relative z-50 max-w-[30rem]">
+        While these projects didn't come to fruition, they represent my ambition to build impactful solutions and my willingness to take on challenging ideas. These projects served as a testament to my passion for coding and problem-solving, despite facing setbacks due to knowledge gaps at the time.
+      </p>
+      <Meteors number={30} />
+    </div>
+    <div className="flex flex-col justify-center ml-8">
+      <h2 className="font-semibold text-lg text-white mb-2 relative z-50">
+        Real-Time Multilingual Translation AI
+      </h2>
+      <p className="font-normal text-base text-slate-300 mb-4 relative z-50">
+        <strong>Inspiration:</strong> To build a meaningful and impactful solution that could help immigrants access emergency services by breaking down language barriers.
+        <br />
+        <strong>Technologies Used:</strong> Whisper AI (transcription), Microsoft Translator API (translation), Bark AI, Coqui AI (voice generation), Twilio (phone integration)
+      </p>
+    </div>
+    <div className="flex flex-col justify-center ml-8">
+      <h2 className="font-semibold text-lg text-white mb-2 relative z-50">
+        InstantAutoFix
+      </h2>
+      <p className="font-normal text-base text-slate-300 mb-4 relative z-50">
+        <strong>Inspiration:</strong> To create an on-demand car repair service, similar to Uber, where registered mechanics could provide 24/7 services to customers.
+      </p>
+    </div>
+    <div className="flex flex-col justify-center ml-8">
+      <h2 className="font-semibold text-lg text-white mb-2 relative z-50">
+        SafeRide
+      </h2>
+      <p className="font-normal text-base text-slate-300 mb-4 relative z-50">
+        <strong>Inspiration:</strong> To address the inconvenience and safety concerns faced by drivers and passengers traveling between cities, especially during late hours. The app would allow drivers to share their destinations and connect with passengers along their route, ensuring a safer and more efficient journey for both parties.
+      </p>
+    </div>
+    <p className="font-normal text-base text-slate-300 mb-4 relative z-50 max-w-[30rem]">
+      <strong>Takeaway:</strong> While these projects ultimately didn't reach completion, they taught me valuable lessons about managing scope, prioritizing foundational knowledge, and the importance of perseverance in the face of challenges. These experiences fueled my determination to strengthen my skills and understanding before embarking on ambitious endeavors.
+    </p>
+  </div>
+</div>
     </div>
 
   
