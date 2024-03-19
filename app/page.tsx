@@ -88,10 +88,8 @@ export default function Home() {
           </h1>
  
           <p className="font-normal text-base text-slate-300 mb-4 relative z-50 max-w-[30rem]">
-            I dont know what to write so Ill just paste something
-            cool here. One more sentence because lorem ipsum is just
-            unacceptable. Wont ChatGPT the shit out of this.
-            lor
+            In my hometown, I witnessed a situation where some people struggled with hunger while others had surplus food that often went to waste. Wealthy individuals were hesitant to donate their extra food to strangers, leading to a disconnect between those in need and those with resources.
+            
           </p>
           <h1 className="font-bold text-xl text-white mb-4 relative mt-1 z-50 max-w-[30rem] ">
            What i learned
@@ -99,10 +97,7 @@ export default function Home() {
           </h1>
  
           <p className="font-normal text-base text-slate-300 mb-4 relative z-50 max-w-[30rem]">
-            I dont know what to write so Ill just paste something
-            cool here. One more sentence because lorem ipsum is just
-            unacceptable. Wont ChatGPT the shit out of this.
-            lor
+           During the development of FoodPick, I gained hands-on experience with deployment processes, including database deployment and working with various deployment environments. Additionally, I learned to leverage React's useContext hook for state management.
           </p>
           <h1 className="font-bold text-xl text-white mb-4 relative mt-1 z-50 max-w-[30rem]">
            Takeaway
@@ -110,10 +105,7 @@ export default function Home() {
           </h1>
  
           <p className="font-normal text-base text-slate-300 mb-4 relative z-50 max-w-[30rem]">
-            I dont know what to write so Ill just paste something
-            cool here. One more sentence because lorem ipsum is just
-            unacceptable. Wont ChatGPT the shit out of this.
-            lor
+            One key takeaway from this project was the importance of patience when deploying applications. Initially, when I deployed the server to Firebase Functions, I immediately began testing the API, leading to disappointment when it didn't work right away. However, after allowing time for the changes to propagate, the API functioned as expected the next day.
           </p>
  
           <Meteors number={30} />
@@ -138,10 +130,7 @@ export default function Home() {
           </h1>
  
           <p className="font-normal text-base text-slate-300 mb-4 relative z-50 max-w-[30rem]">
-            I dont know what to write so Ill just paste something
-            cool here. One more sentence because lorem ipsum is just
-            unacceptable. Wont ChatGPT the shit out of this.
-            lor
+            I always had the ambition to build great things and code something amazing. However, although I had a strong understanding of coding languages, I lacked proficiency in HTML, CSS, styling, React, and other related technologies. I would often jump straight into building big projects without first solidifying the foundational knowledge. I knew the foundations, but there were gaps that needed to be filled, and I needed to put the pieces together.
           </p>
           <h1 className="font-bold text-xl text-white mb-4 relative mt-1 z-50 max-w-[30rem] ">
            What i learned
@@ -149,10 +138,7 @@ export default function Home() {
           </h1>
  
           <p className="font-normal text-base text-slate-300 mb-4 relative z-50 max-w-[30rem]">
-            I dont know what to write so Ill just paste something
-            cool here. One more sentence because lorem ipsum is just
-            unacceptable. Wont ChatGPT the shit out of this.
-            lor
+           During my journey with The Odin Project, I learned a wide range of skills and concepts. I gained expertise in manipulating the DOM using vanilla JavaScript, mastering styling techniques, and implementing responsive design principles. Additionally, I acquired knowledge of various frameworks and libraries, including React, and their respective workflows.
           </p>
           <h1 className="font-bold text-xl text-white mb-4 relative mt-1 z-50 max-w-[30rem]">
            Takeaway
@@ -160,10 +146,7 @@ export default function Home() {
           </h1>
  
           <p className="font-normal text-base text-slate-300 mb-4 relative z-50 max-w-[30rem]">
-            I dont know what to write so Ill just paste something
-            cool here. One more sentence because lorem ipsum is just
-            unacceptable. Wont ChatGPT the shit out of this.
-            lor
+            The key takeaway from this experience was the realization that I shouldn't rush into building complex projects without first establishing a strong foundational knowledge. Instead of letting the foundations slip, I needed to ensure that I had a solid grasp of the underlying concepts and technologies before attempting to build something ambitious. By taking the time to learn the fundamentals thoroughly, I would be better equipped to understand how different frameworks and technologies work, ultimately enabling me to develop more robust and efficient applications.
           </p>
  
           <Meteors number={30} />
