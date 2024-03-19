@@ -242,7 +242,7 @@ export default function Home() {
             Tools &amp; Technologies
           </dt>
           <dd className="mt-2 text-slate-300">
-            Git, GitHub, Firebase (Hosting, Functions, Authentication), Twilio, Mailbee, H2O.ai, Docker, Vite, **ESLint**, **Prettier**, **Postman**, **REST Client**, **CI/CD**
+            Git, GitHub, Firebase (Hosting, Functions, Authentication), Twilio, Mailbee, H2O.ai, Docker, Vite, ESLint, Prettier, Postman, REST Client, CI/CD
           </dd>
         </div>
         <div>
